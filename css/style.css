@@ -102,7 +102,7 @@ html {
   font-family: 'Hirmos';
   z-index: 2;
   color: white;
-  text-shadow: 0px 0px 30px  black
+  text-shadow: 0px 0px 30px black;
 }
 
 .content__subtitle {
@@ -110,7 +110,7 @@ html {
   font-size: 36px;
   color: white;
   text-align: center;
-  text-shadow: 0px 0px 10px black
+  text-shadow: 0px 0px 10px black;
 }
 
 .center {
@@ -125,7 +125,7 @@ html {
   height: 400px;
   overflow: hidden;
   border-radius: 50%;
-  box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.5)
+  box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.5);
 }
 .circular__portrait img {
   width: 100%;
@@ -135,6 +135,7 @@ html {
 .socialnetwork__items {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
@@ -144,7 +145,6 @@ html {
   gap: 20px;
 }
 
-
 .content {
   display: flex;
   flex-direction: column;
@@ -152,19 +152,29 @@ html {
   margin: 80px;
 }
 
-.drop__shadow{
+.drop__shadow {
   filter: drop-shadow(0rem 0rem 0.9rem black);
   cursor: pointer;
-
 }
 
-
-.fillss:hover svg path{
-  fill: #B0C4DE;
+.linksvk:hover svg path {
+  fill: #3472c4;
 }
 
-.linksvk, .linksyb{
-  align-self:center;
+.linksyb:hover svg path {
+  fill: #b42d2d;
+}
+
+.linkstg:hover svg path {
+  fill: #4a72b7;
+}
+
+.linkstg:hover svg path {
+  fill: #4a72b7;
+}
+
+.boosty:hover svg path {
+  fill: #fc8700;
 }
 
 /* Extra small devices (phones, 600px and down) */
