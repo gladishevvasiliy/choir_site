@@ -167,7 +167,6 @@ img {
 .drop__shadow {
     filter: drop-shadow(0rem 0rem 0.9rem black);
     cursor: pointer;
-
 }
 
 
@@ -208,9 +207,9 @@ img {
         margin-top: 40px;
     }
 
-    svg {
-        width: 115%;
-        height: 115%;
+    .boosty svg {
+        width: 195px;
+        height: 52px;
     }
 
 }
@@ -237,7 +236,6 @@ img {
 .support__items {
     justify-content: center;
 }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -255,9 +253,9 @@ img {
         margin-top: 40px;
     }
 
-    svg {
-        width: 115%;
-        height: 115%;
+    .boosty svg {
+        width: 195px;
+        height: 52px;
     }
 
     .socialnetwork__items {
@@ -300,9 +298,14 @@ img {
         margin-top: 40px;
     }
 
-    svg {
-        width: 115%;
-        height: 115%;
+    .boosty svg {
+        width: auto;
+        height: 140px;
+    }
+
+    .socialnetwork__items svg {
+      width: auto;
+        height: 80px;
     }
 
     .socialnetwork__items {
@@ -345,9 +348,9 @@ img {
         margin-top: 40px;
     }
 
-    svg {
-        width: 140%;
-        height: 140%;
+    .boosty svg {
+        width: 195px;
+        height: 52px;
     }
 
     .socialnetwork__items {
@@ -390,9 +393,9 @@ img {
         margin-top: 65px;
     }
 
-    svg {
-        width: 200%;
-        height: 200%;
+    .boosty svg {
+        width: 195px;
+        height: 52px;
     }
 
     .socialnetwork__items {
