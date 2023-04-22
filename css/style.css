@@ -229,20 +229,20 @@ img {
   .socialnetwork__items svg {
     width: auto;
     height: 35px;
-		gap: 25px;
+    gap: 25px;
   }
 
   .linkstg svg {
     width: auto;
     height: 45px;
-		align-self: center;
+    align-self: center;
   }
 
   .boosty svg {
-		justify-content: center;
+    justify-content: center;
     width: auto;
     height: 50px;
-		margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 }
 
@@ -278,23 +278,25 @@ img {
     font-size: 40px;
   }
 
-  .socialnetwork__items, .socialnetwork__items svg {
+  .socialnetwork__items,
+  .socialnetwork__items svg {
     width: auto;
     height: 45px;
-		gap: 40px;
+    gap: 40px;
   }
 
-  .linkstg, .linkstg svg {
+  .linkstg,
+  .linkstg svg {
     width: auto;
     height: 55px;
-		align-self: center;
+    align-self: center;
   }
 
   .boosty svg {
-		justify-content: center;
+    justify-content: center;
     width: auto;
     height: 60px;
-		margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 }
 
